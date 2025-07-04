@@ -16,9 +16,13 @@
     <script>
         let currentImageIndex = 0;
         const images = [
-        "C:/Users/Reddy/Downloads/WhatsApp Image 2025-02-08 at 8.54.03 PM.jpeg", // First image
-           "C:/Users/Reddy/Downloads/WhatsApp Image 2025-02-08 at 9.09.14 PM.jpeg",
+            "Rules.jpg",
+            "mainpage.jpg",
         ];
+         window.onload = function () {
+        document.getElementById('canvaImage').src = images[currentImageIndex];
+    };
+
         function nextImage() {
             
             if (currentImageIndex < images.length-1) {
