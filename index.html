@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Ninja Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score-board" align="center">
+            <h1>🥳 <span id="score">0</span></h1>
+        </div>
+    </div>
+    <script>
+        let currentImageIndex = 0;
+        const images = [
+        "C:/Users/Reddy/Downloads/WhatsApp Image 2025-02-08 at 8.54.03 PM.jpeg", // First image
+           "C:/Users/Reddy/Downloads/WhatsApp Image 2025-02-08 at 9.09.14 PM.jpeg",
+        ];
+        function nextImage() {
+            
+            if (currentImageIndex < images.length-1) {
+                currentImageIndex ++ ; // Loop back to the first image
+            document.getElementById('canvaImage').src = images[currentImageIndex];
+            alert("Click Okay.To know how to play.");
+        } else {
+                // No more images; hide the image and show the game
+                document.getElementById('canvaImage').style.display = "none"; // Hide the image
+                document.querySelector('.game-container').style.display = "block"; // Show the game container      
+            }
+            }
+    </script>
+<body style="margin: 0; padding: 0; height: 100%; overflow: hidden;" onclick="nextImage()">
+
+    <!-- Full Page Image -->
+    <img id="canvaImage" src="C:/Users/Reddy/Downloads/WhatsApp Image 2025-02-08 at 8.54.03 PM.jpeg" alt="Canva Design" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+   
+
+    <script src="splasheffect.js"></script>
+</body>
+</html>
