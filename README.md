@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3b919d34-c7f9-44f2-af00-267b143591e6)# 🎮 Emoji Pop Game
+# 🎮 Emoji Pop Game
 Welcome to **Emoji Pop Game** – a fun and interactive game where you pop emojis under specific conditions to earn points! 🚀 This project is built with ❤️ using HTML, CSS, and JavaScript.
 ## 🧩 Game Features
 - 🎯 Simple, fun, and addictive emoji popping gameplay
