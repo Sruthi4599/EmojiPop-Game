@@ -10,7 +10,7 @@ Welcome to **Emoji Pop Game** – a fun and interactive game where you pop emoji
 - **Design**: Emoji icons, animations
 ## 🚀 Getting Started
 Follow these steps to run the game locally:
-## Live Demo:
+## Live Demo: 
 🌐 Play Online
 You can play it directly here:
 [https://sruthi4599.github.io/EmojiPop-Game/](https://sruthi4599.github.io/EmojiPop-Game/)
